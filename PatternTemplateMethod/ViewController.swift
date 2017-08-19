@@ -12,14 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let tea = Tea()
+        let coffee = Coffee()
+        
+        print("-------차 준비중-------")
+        tea.prepareRecipe()
+        
+        print("-------커피 준비중-------")
+        coffee.prepareRecipe()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

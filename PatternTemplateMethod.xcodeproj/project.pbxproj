@@ -14,6 +14,7 @@
 		9B1DA1C11F4870AA00DB0393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1DA1BF1F4870AA00DB0393 /* LaunchScreen.storyboard */; };
 		9B1DA1CC1F4870AA00DB0393 /* PatternTemplateMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1DA1CB1F4870AA00DB0393 /* PatternTemplateMethodTests.swift */; };
 		9B1DA1D71F4870AB00DB0393 /* PatternTemplateMethodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1DA1D61F4870AB00DB0393 /* PatternTemplateMethodUITests.swift */; };
+		9B1DA1E51F4871BC00DB0393 /* Caffeine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1DA1E41F4871BC00DB0393 /* Caffeine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9B1DA1D21F4870AB00DB0393 /* PatternTemplateMethodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternTemplateMethodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1DA1D61F4870AB00DB0393 /* PatternTemplateMethodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternTemplateMethodUITests.swift; sourceTree = "<group>"; };
 		9B1DA1D81F4870AB00DB0393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1DA1E41F4871BC00DB0393 /* Caffeine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Caffeine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				9B1DA1B61F4870AA00DB0393 /* AppDelegate.swift */,
 				9B1DA1B81F4870AA00DB0393 /* ViewController.swift */,
+				9B1DA1E41F4871BC00DB0393 /* Caffeine.swift */,
 				9B1DA1BA1F4870AA00DB0393 /* Main.storyboard */,
 				9B1DA1BD1F4870AA00DB0393 /* Assets.xcassets */,
 				9B1DA1BF1F4870AA00DB0393 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B1DA1B91F4870AA00DB0393 /* ViewController.swift in Sources */,
+				9B1DA1E51F4871BC00DB0393 /* Caffeine.swift in Sources */,
 				9B1DA1B71F4870AA00DB0393 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

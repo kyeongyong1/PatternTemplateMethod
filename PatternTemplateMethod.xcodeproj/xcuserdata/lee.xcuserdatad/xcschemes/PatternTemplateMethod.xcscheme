@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9B1DA1B21F4870AA00DB0393"
+               BuildableName = "PatternTemplateMethod.app"
+               BlueprintName = "PatternTemplateMethod"
+               ReferencedContainer = "container:PatternTemplateMethod.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9B1DA1C61F4870AA00DB0393"
+               BuildableName = "PatternTemplateMethodTests.xctest"
+               BlueprintName = "PatternTemplateMethodTests"
+               ReferencedContainer = "container:PatternTemplateMethod.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9B1DA1D11F4870AB00DB0393"
+               BuildableName = "PatternTemplateMethodUITests.xctest"
+               BlueprintName = "PatternTemplateMethodUITests"
+               ReferencedContainer = "container:PatternTemplateMethod.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9B1DA1B21F4870AA00DB0393"
+            BuildableName = "PatternTemplateMethod.app"
+            BlueprintName = "PatternTemplateMethod"
+            ReferencedContainer = "container:PatternTemplateMethod.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9B1DA1B21F4870AA00DB0393"
+            BuildableName = "PatternTemplateMethod.app"
+            BlueprintName = "PatternTemplateMethod"
+            ReferencedContainer = "container:PatternTemplateMethod.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9B1DA1B21F4870AA00DB0393"
+            BuildableName = "PatternTemplateMethod.app"
+            BlueprintName = "PatternTemplateMethod"
+            ReferencedContainer = "container:PatternTemplateMethod.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
