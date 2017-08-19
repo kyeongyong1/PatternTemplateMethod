@@ -19,7 +19,6 @@ class CaffeineBeverage {
     
     func brew() {
         assert(false, "brew method must be implemented")
-        
     }
     
     func addCondiments() {
